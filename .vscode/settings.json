@@ -1,0 +1,10 @@
+{
+    "editor.minimap.enabled": false,
+    "workbench.colorTheme": "Level Up",
+    "editor.renderLineHighLight": "none",
+    "window.zoomLevel": 1,
+    "workbench.sideBar.location": "left",
+    "files.autoSave": "afterDelay",
+    "editor.fontFamily": "'Fira Code'",
+    "editor.fontLigatures": true
+}
