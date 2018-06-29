@@ -5,7 +5,8 @@ import Movie from "./Movie.js";
 
 const movies = [{
     id: 1,
-    title: "Star Wars"
+    title: "Star Wars",
+    desc: "A space movie."
   }, {
     id: 2,
     title: "Spider Man"
@@ -14,9 +15,8 @@ const movies = [{
     title: "36th Chamber of Shaolin"
   }, {
     id: 4,
-    title: "17 Deadly Venoms"
+    title: "12 Deadly Venoms"
   }
-
 ];
 
 class App extends Component {
@@ -26,11 +26,9 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
         </header>
-        {movies.map(movie => <Movie key={movie.id} movie={movie}/> )}
+        {movies.map(movie => <Movie key={movie.id} movie={movie} desc={movie.desc} /> )}
       </div>
     );
   }
 }
-
-
 export default App;
