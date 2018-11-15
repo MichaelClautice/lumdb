@@ -26,6 +26,7 @@ const App = () => (
       <Route exact path="/" component={MoviesList} />
       <Route path="/:id" component={RouterTest1} />
       <Route path="/RouterTest2" component={RouterTest2} />
+      <Route path="/RouterTest3" component={RouterTest3} />
     </Switch>
   </div>
 </Router>
@@ -44,5 +45,8 @@ const RouterTest1 = ({match}) => (
 );
 const RouterTest2 = () => (
   <h1>THIS IS ROUTER TEST 2</h1>
+);
+const RouterTest3 = () => (
+  <h1>THIS IS ROUTER TEST 3</h1>
 );
 // EXIT THE ROUTER TEST SECTION
