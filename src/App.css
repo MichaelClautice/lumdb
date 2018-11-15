@@ -1,16 +1,16 @@
 
 body {
-  background-color: powderblue;
+  background-color: rgb(240, 97, 14);
 }
 
 .App {
   text-align: center;
-  color: rgb(35, 21, 228);
+  color: rgb(21, 228, 107);
 }
 
 
 .App-header {
-  background-color: rgb(9, 114, 40);
+  background-color: rgb(14, 146, 54);
   height: 60px;
   padding: 20px;
   color: hsl(56, 89%, 45%);
