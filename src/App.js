@@ -1,5 +1,5 @@
 /* eslint react/no-did-mount-set-state: 0 */
-// GitHub Test Dec 7
+// GitHub Push Test Jan 3
 // ENTER THE IMPORT SECTION
 import React, { Component } from 'react';
 import {
@@ -11,6 +11,7 @@ import {
 import logo from './logo.svg';
 import './App.css';
 import MoviesList from './MoviesList';
+import MovieDetail from './MovieDetail';
 // EXIT THE IMPORT SECTION
 
 
@@ -25,8 +26,7 @@ const App = () => (
     </header>
     <Switch>
       <Route exact path="/" component={MoviesList} />
-      <Route path="/:id" component={RouterTest1} />
-      <Route path="/RouterTest2" component={RouterTest2} />
+      <Route path="/:id" component={MovieDetail} />
     </Switch>
   </div>
 </Router>
@@ -39,11 +39,6 @@ export default App;
 // EXIT THE EXPORT SECTION
 
 
-// ENTER THE ROUTER TEST SECTION
-const RouterTest1 = ({match}) => (
-  <h1>{match.params.id}</h1>
-);
-const RouterTest2 = () => (
-  <h1>THIS IS ROUTER TEST 2</h1>
-);
-// EXIT THE ROUTER TEST SECTION
+
+
+
