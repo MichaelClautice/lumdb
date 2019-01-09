@@ -29,6 +29,7 @@ class MovieDetail extends Component {
         <img src={`${POSTER_PATH}${movie.poster_path}`} alt={movie.title} />
         <h1>{movie.title}</h1>
         <h3>{movie.release_date}</h3>
+        <h3>{movie.budget}</h3>
         <p>{movie.overview}</p>
       </div>
     );

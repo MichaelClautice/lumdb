@@ -1,7 +1,4 @@
 
-body {
-  background-color: rgb(14, 240, 25);
-}
 
 .App {
   text-align: center;
@@ -10,7 +7,7 @@ body {
 
 
 .App-header {
-  background-color: rgb(14, 146, 54);
+  background-color: #111;
   height: 60px;
   padding: 20px;
   color: hsl(56, 89%, 45%);
