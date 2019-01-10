@@ -1,5 +1,5 @@
 /* eslint react/no-did-mount-set-state: 0 */
-// GitHub Push Test Jan 9
+// GitHub Push Test Jan 10
 // ENTER THE IMPORT SECTION
 import React, { Component } from 'react';
 import {
@@ -23,7 +23,7 @@ const App = () => (
       <Link to="/">
         <img src={logo} className="App-logo" alt="logo" />
         <br></br>
-        <h4>movie db url here</h4> 
+        <h4>click on movie poster for details</h4> 
       </Link>
     </header>
     <Switch>

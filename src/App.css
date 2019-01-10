@@ -1,13 +1,16 @@
 
 
 .App {
-  text-align: center;
-  color: rgb(2, 24, 11);
+  /* text-align: center; */
+  text-align: left;
+  /* color: rgb(2, 24, 11); */
+  color: rgb(233, 47, 14);
 }
 
 
 .App-header {
-  background-color: #111;
+  /* background-color: #111; */
+  background-color: rgb(0, 255, 98);
   height: 60px;
   padding: 20px;
   color: hsl(56, 89%, 45%);

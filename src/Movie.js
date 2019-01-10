@@ -20,6 +20,6 @@ Movie.propTypes = {
   }).isRequired,
 };
 
-const Poster = styled.img`
-  box-shadow: 0 0 35px black;
+export const Poster = styled.img`
+box-shadow: 0 0 35px black;
   `;

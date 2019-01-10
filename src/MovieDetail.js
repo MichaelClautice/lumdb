@@ -1,5 +1,7 @@
 /* eslint react/no-did-mount-set-state: 0 */
 import React, { Component } from 'react';
+import styled from 'styled-components';
+import { Poster } from './Movie';
 
 const POSTER_PATH = 'http://image.tmdb.org/t/p/w154';
 const BACKDROP_PATH = 'http://image.tmdb.org/t/p/w1280';
@@ -26,7 +28,7 @@ class MovieDetail extends Component {
     return (
       <div>
         <img src={`${BACKDROP_PATH}${movie.backdrop_path}`} alt={movie.title} />
-        <img src={`${POSTER_PATH}${movie.poster_path}`} alt={movie.title} />
+        <Poster src={`${POSTER_PATH}${movie.poster_path}`} alt={movie.title} />
         <h1>{movie.title}</h1>
         <h3>{movie.release_date}</h3>
         <h3>{movie.budget}</h3>
@@ -38,3 +40,7 @@ class MovieDetail extends Component {
 
 export default MovieDetail;
 
+
+const MovieWrapper = styled.div`
+
+`;
