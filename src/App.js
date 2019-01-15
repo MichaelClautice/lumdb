@@ -1,6 +1,7 @@
 /* eslint react/no-did-mount-set-state: 0 */
-// GitHub Push Test Jan 10
-// ENTER THE IMPORT SECTION
+// GitHub Push Test Jan 15
+
+// •••••••• Imports ••••••••
 import React, { Component } from 'react';
 import {
   BrowserRouter as Router,
@@ -12,10 +13,8 @@ import logo from './logo.svg';
 import './App.css';
 import MoviesList from './MoviesList';
 import MovieDetail from './MovieDetail';
-// EXIT THE IMPORT SECTION
 
-
-// ENTER THE COMPONENT CREATION SECTION
+// •••••••• Function Component Definition ••••••••
 const App = () => (
   <Router>
   <div className="App">
@@ -33,12 +32,12 @@ const App = () => (
   </div>
 </Router>
 );
-// EXIT THE COMPONENT CREATION SECTION
 
 
-// ENTER THE EXPORT SECTION 
+
+// •••••••• Exports •••••••• 
 export default App;
-// EXIT THE EXPORT SECTION
+
 
 
 
