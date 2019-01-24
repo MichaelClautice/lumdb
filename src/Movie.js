@@ -26,4 +26,5 @@ Movie.propTypes = {
 // •••••••• Styled-Component Definition ••••••••
 export const Poster = styled.img`
 box-shadow: 0 0 35px black;
+border: 5px solid red;
   `;

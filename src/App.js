@@ -20,9 +20,7 @@ const App = () => (
   <div className="App">
     <header className="App-header">
       <Link to="/">
-        <img src={logo} className="App-logo" alt="logo" />
-        <br></br>
-        <h4>click on movie poster for details</h4> 
+        <img src={logo} className="App-logo" alt="logo" /> 
       </Link>
     </header>
     <Switch>
