@@ -1,5 +1,5 @@
 /* eslint react/no-did-mount-set-state: 0 */
-// GitHub Push Test Jan 15
+// GitHub Push Test Jan 31
 
 // •••••••• Imports ••••••••
 import React, { Component } from 'react';
@@ -22,6 +22,7 @@ const App = () => (
       <Link to="/">
         <img src={logo} className="App-logo" alt="logo" /> 
       </Link>
+      <h3>TEST</h3>
     </header>
     <Switch>
       <Route exact path="/" component={MoviesList} />

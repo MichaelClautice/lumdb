@@ -73,7 +73,7 @@ const MovieInfo = styled.div`
   text-align: left;
   padding: 2rem 10%;
   display: flex;
-  > div {
+  div {
     margin-left: 20px;
     background: pink;
   }
